@@ -57,12 +57,17 @@
 				<!-- Row 1 -->
 				<div class="row">
 					<div class="col-md-4">
-						<div class="card mb-3">
+						<div
+							class="card mb-3"
+							data-bs-container="body"
+							data-bs-toggle="popover"
+							data-bs-placement="top"
+							data-bs-content="email: blackwidow@gmail.com">
 							<div class="card-body">
 								<div class="d-flex gap-3">
 									<div class="user-img">
 										<img
-											src="https://randomuser.me/api/portraits/women/10.jpg"
+											src="https://randomuser.me/api/portraits/women/11.jpg"
 											class="img-fluid rounded-circle" />
 									</div>
 									<div class="user-info">
@@ -80,5 +85,13 @@
 			</div>
 		</main>
 		<script src="js/bootstrap.bundle.min.js"></script>
+		<script>
+			const popoverTriggerList = document.querySelectorAll(
+				'[data-bs-toggle="popover"]'
+			);
+			const popoverList = [...popoverTriggerList].map(
+				(popoverTriggerEl) => new bootstrap.Popover(popoverTriggerEl)
+			);
+		</script>
 	</body>
 </html>
