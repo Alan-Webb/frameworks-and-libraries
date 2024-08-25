@@ -2,6 +2,16 @@
 	font-size: 65px;
 }
 
+.hr-heading {
+	display: inline-block;
+	width: 3.5rem;
+	height: 0.125rem;
+	margin-top: 0.625rem;
+	border: none;
+	background-color: var(--bs-primary);
+	opacity: 1;
+}
+
 // Navbar
 .navbar {
 	transition: all 0.5s ease-in-out;
@@ -24,15 +34,10 @@
 	width: 24px;
 }
 
-// Form area
-.hr-heading {
-	display: inline-block;
-	width: 3.5rem;
-	height: 0.125rem;
-	margin-top: 0.625rem;
-	border: none;
-	background-color: var(--bs-primary);
-	opacity: 1;
+// Details 1
+.details .vertical-decoration {
+	top: 0;
+	left: 0;
 }
 
 // Media queries
