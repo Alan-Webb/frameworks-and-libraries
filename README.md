@@ -1,9 +1,10 @@
-# frameworks-and-libraries
+# websites-and-landing-pages
 
-Projects using frameworks and libraries
+Small websites and landing pages
 
 ## Built with
 
+- Vanilla HTML5, CSS3, JavaScript
 - Bootstrap 5
 
 ## Author
