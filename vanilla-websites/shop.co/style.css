@@ -591,4 +591,9 @@ section {
 	.main-brands {
 		gap: 25px;
 	}
+	.brands-c img {
+		width: 100%;
+		max-width: 100px;
+		height: auto;
+	}
 }
