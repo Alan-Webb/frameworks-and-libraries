@@ -6,6 +6,7 @@ Small websites and landing pages
 
 - Vanilla HTML5, CSS3, JavaScript
 - Bootstrap 5
+- Sass
 
 ## Author
 
