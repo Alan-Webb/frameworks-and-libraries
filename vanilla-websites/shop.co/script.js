@@ -7,3 +7,8 @@ menu.addEventListener("click", () => {
 	menu.classList.toggle("bx-x");
 	navlist.classList.toggle("open");
 });
+
+window.addEventListener("scroll", () => {
+	menu.classList.remove("bx-x");
+	navlist.classList.remove("open");
+});
