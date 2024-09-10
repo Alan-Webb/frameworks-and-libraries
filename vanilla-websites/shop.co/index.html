@@ -13,6 +13,7 @@
 			integrity="sha512-HXXR0l2yMwHDrDyxJbrMD9eLvPe3z3qL3PPeozNTsiHJEENxx8DH2CxmV05iwG0dwoz5n4gQZQyYLUNt1Wdgfg=="
 			crossorigin="anonymous"
 			referrerpolicy="no-referrer" />
+		<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 		<title>Shop.CO</title>
 	</head>
 	<body>
@@ -35,7 +36,7 @@
 		</header>
 		<!-- Home -->
 		<section class="home">
-			<div class="home-text">
+			<div class="home-text" data-aos="fade-up">
 				<h6>New Arrivals</h6>
 				<h1>
 					New Arrivals <br />
@@ -450,5 +451,12 @@
 			</div>
 		</div>
 		<script src="script.js"></script>
+		<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+		<script>
+			AOS.init({
+				offset: 300,
+				duration: 1450,
+			});
+		</script>
 	</body>
 </html>
